@@ -1,0 +1,22 @@
+{
+  "name": "moneyd-eth",
+  "version": "1.0.0",
+  "description": "> Under construction",
+  "main": "index.js",
+  "bin": {
+    "moneyd-eth": "moneyd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interledgerjs/moneyd-eth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interledgerjs/moneyd-eth/issues"
+  },
+  "homepage": "https://github.com/interledgerjs/moneyd-eth#readme"
+}
