@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/interledgerjs/moneyd-eth/issues"
   },
-  "homepage": "https://github.com/interledgerjs/moneyd-eth#readme"
+  "homepage": "https://github.com/interledgerjs/moneyd-eth#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "good-table": "^1.0.3",
+    "ilp-connector": "github:interledgerjs/ilp-connector",
+    "ilp-plugin-ethereum-asym-client": "^1.0.0",
+    "inquirer": "^5.1.0",
+    "node-fetch": "^2.1.1",
+    "yargs": "^11.0.0"
+  }
 }

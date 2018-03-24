@@ -22,21 +22,21 @@ exports.startFull = (config, allowedOrigins) => Connector.createApp({
   accounts: {
     parent: {
       relation: 'parent',
-      plugin: 'ilp-plugin-xrp-asym-client',
-      assetCode: 'XRP',
+      plugin: 'ilp-plugin-ethereum-asym-client',
+      assetCode: 'ETH',
       assetScale: 6,
       balance: {
+        account: '
+        provider: 'https://rinkeby.infura.io/UPOhUR8Dc6yk5ZC39OuN',
         minimum: '-Infinity',
-        maximum: '20000',
-        settleThreshold: '5000',
-        settleTo: '10000'
+        minimumChannelAmount: '20000'
       },
       options: config.xrpPluginOptions()
     },
     local: {
       relation: 'child',
       plugin: 'ilp-plugin-mini-accounts',
-      assetCode: 'XRP',
+      assetCode: 'ETH',
       assetScale: 6,
       balance: {
         minimum: '-Infinity',
